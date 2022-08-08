@@ -1,0 +1,225 @@
+.HeaderSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50px;
+}
+.HeaderSection #HamIcon {
+  float: left;
+  padding-right: 15%;
+  height: 50px;
+  width: 50px;
+}
+.HeaderSection #HeaderTitle {
+  font-size: 20px;
+}
+.HeaderSection #HeaderIconsDiv {
+  padding-left: 5%;
+}
+.HeaderSection #HeaderIconsDiv .HeaderIcons {
+  height: 20px;
+  width: 20px;
+}
+
+.FooterSection {
+  margin-top: 5%;
+  bottom: 0;
+}
+.FooterSection #ShippingText {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.FooterSection .FooterMenu h1 {
+  font-size: 100%;
+  padding-bottom: 5%;
+}
+.FooterSection .FooterMenu h2 {
+  padding-bottom: 5%;
+}
+.FooterSection .FooterNewsLetter h1 {
+  font-size: 100%;
+  margin-bottom: 5%;
+}
+.FooterSection .FooterNewsLetter h2 {
+  margin-bottom: 5%;
+}
+.FooterSection .FooterNewsLetter p {
+  margin-bottom: 5%;
+}
+.FooterSection .FooterNewsLetter ul {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+.FooterSection .FooterNewsLetter ul #placeHolderTextBox {
+  margin-bottom: 5%;
+  height: 30%;
+  text-align: left;
+}
+.FooterSection .FooterNewsLetter ul #footerButton {
+  color: white;
+  background-color: black;
+  margin-bottom: 5%;
+  width: 30%;
+}
+.FooterSection .FooterEnd {
+  justify-content: center;
+}
+.FooterSection .FooterEnd p {
+  padding-bottom: 5%;
+  padding-left: 35%;
+}
+.FooterSection .FooterEnd h1 {
+  font-size: 80%;
+  padding-left: 25%;
+  padding-bottom: 5%;
+}
+.FooterSection #placeHolderFooterPic {
+  width: 100%;
+  bottom: 0px;
+}
+
+.LandingPicSection {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 5%;
+  background-image: url("../ArtAssets/artPiece1.png");
+  color: white;
+}
+.LandingPicSection ul {
+  height: 100%;
+  padding-top: 45%;
+  list-style: none;
+}
+.LandingPicSection ul li {
+  padding-top: 5%;
+  margin-left: 25%;
+}
+.LandingPicSection ul li a {
+  position: relative;
+}
+.LandingPicSection ul li a p {
+  padding-left: 15%;
+}
+.LandingPicSection ul li a h1 {
+  font-style: normal;
+}
+.LandingPicSection ul li a h2 {
+  font-size: 15px;
+  text-decoration: underline;
+  padding-left: 15%;
+}
+
+.ExploreBox {
+  width: 100%;
+  height: 200px;
+  background-color: antiquewhite;
+  margin-top: 5%;
+  align-items: center;
+}
+.ExploreBox .ExploreTitle {
+  color: #562e3a;
+  padding-top: 10%;
+  padding-left: 33%;
+}
+.ExploreBox .ExploreButton {
+  margin-top: 15%;
+  margin-left: 40%;
+  height: 20%;
+  width: 30%;
+  background-color: white;
+  border-style: none;
+}
+
+.AboutSection p {
+  padding-top: 5%;
+}
+.AboutSection h2 {
+  padding-top: 5%;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.AboutSection #AboutMePic {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 500px;
+  background-image: url("../ArtAssets/cupraGallery1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#OrderCallSection {
+  width: 100%;
+}
+#OrderCallSection .OrderCallItems {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#OrderCallSection #orderCall1 {
+  background-image: url("../ArtAssets/cupraGallery2.png");
+}
+#OrderCallSection #orderCall1 button {
+  color: white;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 65%;
+  background: none;
+}
+#OrderCallSection #orderCall2 {
+  background-image: url("../ArtAssets/artPiece4.png");
+}
+#OrderCallSection #orderCall2 h1 {
+  color: white;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 50%;
+}
+#OrderCallSection #orderCall2 button {
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 65%;
+}
+#OrderCallSection #orderCall3 {
+  background-image: url("../ArtAssets/artPiece2.png");
+}
+#OrderCallSection #orderCall3 h1 {
+  color: white;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 50%;
+}
+#OrderCallSection #orderCall3 button {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 65%;
+}
+#OrderCallSection #orderCall4 {
+  background-image: url("../ArtAssets/cupraGallery3.png");
+}
+#OrderCallSection #orderCallBrown {
+  background-color: #562e3a;
+}
+#OrderCallSection #orderCallBrown p {
+  color: white;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 25%;
+}
+
+#MainCarouselSection {
+  width: 105%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=mainstyle.css.map */

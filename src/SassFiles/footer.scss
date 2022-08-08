@@ -1,0 +1,63 @@
+.FooterSection {
+  margin-top: 5%;
+  bottom: 0;
+  #ShippingText {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  .FooterMenu {
+    h1 {
+      font-size: 100%;
+      padding-bottom: 5%;
+    }
+    h2 {
+      padding-bottom: 5%;
+    }
+  }
+  .FooterNewsLetter {
+    h1 {
+      font-size: 100%;
+      margin-bottom: 5%;
+    }
+    h2 {
+      margin-bottom: 5%;
+    }
+    p {
+      margin-bottom: 5%;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      #placeHolderTextBox {
+        margin-bottom: 5%;
+        height: 30%;
+        text-align:left;
+      }
+      #footerButton {
+        color:white;
+        background-color: black;
+        margin-bottom: 5%;
+        width: 30%;
+      }
+    }
+  }
+  .FooterEnd {
+    justify-content: center;
+    p{
+        padding-bottom: 5%;
+        padding-left: 35%;
+    }
+    h1{
+        font-size: 80%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+
+    }
+  }
+#placeHolderFooterPic{
+    width: 100%;
+    bottom: 0px;
+}
+}
